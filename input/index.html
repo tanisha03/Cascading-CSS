@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="name-enter"/>
+      </div>
+      <div>
+        <input type="text" id="name-display" placeholder="" data-mask="####"/>
+        <input type="text" id="phone"/>
+      </div>
+      <div>
+        <label for="cc">Credit Card</label>
+        <!-- Set via HTML -->
+        <input id="cc" type="text" data-inputmask="'mask': '9999 9999 9999 9999'" />
+      </div>
+      
+      <div>
+        <label for="date">Date</label>
+        <input id="date" data-inputmask="'alias': 'date'" />
+      </div>
+      
+      <div>
+        <label for="phone">Phone</label>
+        <!-- or set via JS -->
+        <input id="phone" type="text" />
+      </div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
