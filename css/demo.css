@@ -267,6 +267,12 @@ a:focus {
   color: #ff98bb;
 }
 
+/* Gaze */
+.section#Gaze {
+  background: #f79862;
+  color: #ff5349;
+}
+
 @media screen and (max-width: 50em) {
   .link-copy {
     display: none;
