@@ -72,7 +72,7 @@ a:focus {
 }
 
 /* Top Navigation Style */
-.codrops-links {
+/* .codrops-links {
   position: relative;
   display: inline-block;
   text-align: center;
@@ -181,7 +181,7 @@ a:focus {
     transform: scale3d(1, 1, 1);
     webkit-transform: scale3d(1, 1, 1);
   }
-}
+} */
 
 .github-icon {
   fill: #333;
