@@ -367,149 +367,16 @@ a:focus {
 
 /* Individual section colors */
 
-/* Xusni */
-.section#Xusni {
-  background: #3f51b5;
-  color: #212956;
-}
-
-/* Magool */
-.section#Magool {
-  background: #b5bf4b;
-  color: #fff;
-}
-
-.section#Magool .mockup-slider__subtitle {
-  background: #f44336;
-}
-
-.section#Magool .mockup-slider__subtitle a {
-  color: #ddd;
-  font-weight: bold;
-}
-
 /* Crota */
 .section#Crota {
   background: #d0f0c0;
   color: white;
 }
 
-/* Ubax */
-.section#Ubax {
-  background: #e9eae5;
-  color: #31312f;
-}
-
-/* Zahi */
-.section#Zahi {
-  background: #f44336;
-  color: #fff;
-}
-
-/* Timiro */
-.section#Timiro {
-  background: #eae096;
-  color: #ff5722;
-}
-
-/* Shamso */
-.section#Shamso {
+/* Arise */
+.section#Arise {
   background: #93b1c5;
   color: #ff98bb;
-}
-
-/* Maxamed */
-.section#Maxamed {
-  background: #78b395;
-  color: #fff;
-}
-
-/* Beca */
-.section#Beca {
-  background: #a7a7a7;
-  color: #ffeb3b;
-  min-height: 510px;
-}
-
-.section#Beca .mockup-slider {
-  margin: 0 0 0 -9em;
-  min-height: 510px;
-}
-
-/* Etefu */
-.section#Etefu {
-  background: #62ea80;
-  color: #fff;
-}
-
-/* Meklit */
-.section#Meklit {
-  background: #27272b;
-  color: #ff4d3b;
-  min-height: 510px;
-}
-
-.section#Meklit .mockup-slider {
-  margin: 0 0 0 -9em;
-  min-height: 510px;
-}
-
-/* Mariame */
-
-.section#Mariame {
-  background: #a9a9d4;
-  color: #5050b9;
-}
-
-/* Desta */
-.section#Desta {
-  background: #1e1b2c;
-  color: #f39468;
-}
-
-.section#Desta .mockup-slider__title:first-letter {
-  color: #fff;
-}
-
-/* Hagos */
-.section#Hagos {
-  background: #92d9c7;
-  color: #fff;
-}
-
-/* Berta */
-.section#Berta {
-  background: #ff6666;
-  color: #ffe7db;
-  min-height: 510px;
-}
-
-.section#Berta .mockup-slider {
-  min-height: 510px;
-}
-
-/* Aman */
-.section#Aman {
-  background: #f7f5ed;
-  color: #d6856d;
-}
-
-/* Kafa */
-.section#Kafa {
-  background: #d2f1ca;
-  color: #e54f4f;
-}
-
-/* Kafa */
-.section#Totit {
-  background: #3992fd;
-  color: #fff;
-}
-
-/* Ayana */
-.section#Ayana {
-  background: #738aa0;
-  color: #fffefd;
 }
 
 @media screen and (max-width: 50em) {
