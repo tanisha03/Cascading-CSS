@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #8bc34a;
+  color: #8399d4;
   outline: none;
 }
 
@@ -49,7 +49,7 @@ a:focus {
   padding: 0em 1em 4em;
   text-align: center;
   color: #4a4244;
-  background: #b7f372 url(../img/mouse.svg) no-repeat left 50% bottom 40px;
+  background: #8399d4;
 }
 
 .codrops-header a:hover,
@@ -71,121 +71,9 @@ a:focus {
   color: #333;
 }
 
-/* Top Navigation Style */
-/* .codrops-links {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.codrops-links::after {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  width: 1px;
-  height: 70%;
-  background: currentColor;
-  opacity: 0.2;
-  content: "";
-  -webkit-transform: rotate3d(0, 0, 1, 22.5deg);
-  transform: rotate3d(0, 0, 1, 22.5deg);
-}
-
-.codrops-icon {
-  display: inline-block;
-  margin: 0.5em;
-  padding: 0.5em;
-}
-
-.link-copy {
-  position: absolute;
-  top: 2em;
-  right: 2em;
-  width: 20px;
-  height: 20px;
-  z-index: 100;
-  cursor: pointer;
-  background: url(../img/link.svg) no-repeat center center;
-  background-size: cover;
-}
-
-.link-copy::after {
-  content: "Click to copy direct link";
-  font-family: "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 0.75em;
-  line-height: 1.75;
-  font-weight: bold;
-  position: absolute;
-  right: 100%;
-  margin: 0 1em 0 0;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0;
-  color: currentColor;
-  -webkit-transform: translate3d(10px, 0, 0);
-  transform: translate3d(10px, 0, 0);
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-}
-
-.link-copy:hover::after {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.link-copy::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 50px;
-  height: 50px;
-  margin: -25px 0 0 -25px;
-  opacity: 0;
-  border-radius: 50%;
-  background: currentColor;
-}
-
-.link-copy--animate::before {
-  -webkit-animation: pulse 0.3s;
-  animation: pulse 0.3s;
-}
-
-@-webkit-keyframes pulse {
-  from {
-    opacity: 1;
-    -webkit-transform: scale3d(0, 0, 1);
-    transform: scale3d(0, 0, 1);
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-@keyframes pulse {
-  from {
-    opacity: 1;
-    -webkit-transform: scale3d(0, 0, 1);
-    transform: scale3d(0, 0, 1);
-  }
-
-  to {
-    opacity: 0;
-    transform: scale3d(1, 1, 1);
-    webkit-transform: scale3d(1, 1, 1);
-  }
-} */
-
 .github-icon {
   fill: #333;
-  color: #b7f372;
+  color: #8399d4;
   position: absolute;
   top: 0;
   border: 0;
