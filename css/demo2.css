@@ -1,0 +1,306 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  color: #1b3050;
+  background: #f9f0d0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: #8399d4;
+  outline: none;
+}
+
+a:hover,
+a:focus {
+  color: #fff;
+}
+
+.hidden {
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+/* Icons */
+.icon {
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 auto;
+  fill: currentColor;
+}
+
+/* Header */
+.codrops-header {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  padding: 0em 1em 4em;
+  text-align: center;
+  color: #4a4244;
+  background: #8399d4;
+}
+
+.codrops-header a:hover,
+.codrops-header a:focus {
+  color: #333;
+}
+
+.codrops-header__pretitle {
+  display: block;
+  margin: 1em 0 0.5em;
+  font-size: 1.8em;
+}
+
+.codrops-header__title {
+  font-size: 2.75em;
+  font-weight: normal;
+  position: relative;
+  margin: 0;
+  color: #333;
+}
+
+.github-icon {
+  fill: #333;
+  color: #8399d4;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+/* Content */
+.content {
+  padding: 3em 0;
+}
+
+.section {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.section--nav {
+  position: relative;
+  overflow: hidden;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.section__title {
+  font-size: 0.65em;
+  font-weight: 700;
+  -webkit-flex: none;
+  flex: none;
+  margin: 3em 0 15em;
+  text-indent: 3px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #d1d1d1;
+}
+
+.section.section--intro {
+  font-size: 1.6em;
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+  color: #fff;
+  background: #333;
+}
+
+.section--intro p {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Mockup Slider */
+.mockup-slider {
+  position: relative;
+  width: calc(100% - 12em);
+  margin: 0 0 0 2em;
+  max-width: 600px;
+}
+
+.mockup-slider::before,
+.mockup-slider::after {
+  content: "";
+  width: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  height: 100px;
+  position: absolute;
+  top: 0;
+}
+
+.mockup-slider::after {
+  top: auto;
+  bottom: 0;
+}
+
+.mockup-slider img {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  margin: 150px 0;
+  box-shadow: 0 10px 20px -4px rgba(0, 0, 0, 0.6);
+}
+
+.mockup-slider__title {
+  position: absolute;
+  font-size: 3em;
+  bottom: 30%;
+  left: -0.5em;
+  font-weight: normal;
+  margin: 0;
+}
+
+.mockup-slider__subtitle {
+  position: absolute;
+  top: 70%;
+  left: -1em;
+  background: #1b3050;
+  margin: 0;
+  color: #fff;
+  font-size: 1.05em;
+  padding: 0.25em 0.5em;
+  z-index: 100;
+}
+
+/* Related demos */
+.content--related {
+  font-weight: bold;
+  padding: 10em 1em;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+.content__wrap--related {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.media-item {
+  display: inline-block;
+  padding: 1em;
+  vertical-align: top;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.media-item__img {
+  max-width: 100%;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.media-item:hover .media-item__img,
+.media-item:focus .media-item__img {
+  opacity: 1;
+}
+
+.media-item__title {
+  font-size: 1em;
+  margin: 0;
+  padding: 0.5em;
+}
+
+/* Individual section colors */
+
+/* Crota */
+.section#Crota {
+  background: #d0f0c0;
+  color: white;
+}
+
+/* Arise */
+.section#Arise {
+  background: #93b1c5;
+  color: #ff98bb;
+}
+
+/* Gaze */
+.section#Gaze {
+  background: #f79862;
+  color: #ff5349;
+}
+
+@media screen and (max-width: 50em) {
+  .link-copy {
+    display: none;
+  }
+  .codrops-header {
+    font-size: 0.85em;
+  }
+  .section.section--intro {
+    font-size: 1em;
+  }
+  .section--nav {
+    padding: 4em 0;
+  }
+  .section--nav::before {
+    content: attr(id);
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+  .mockup-slider {
+    display: none;
+  }
+  .nav {
+    -webkit-flex: none;
+    flex: none;
+    margin: 0 auto;
+  }
+  .nav.nav--berta {
+    width: 100%;
+  }
+}
