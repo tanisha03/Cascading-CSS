@@ -44,8 +44,8 @@ a:focus {
 /* Header */
 .codrops-header {
   position: relative;
-  height: 100vh;
-  min-height: 600px;
+  min-height: 100vh;
+  width: 100vw;
   padding: 0em 1em 4em;
   text-align: center;
   color: #4a4244;
@@ -125,25 +125,9 @@ a:focus {
   justify-content: center;
   -webkit-align-items: center;
   align-items: center;
-}
-
-.section--nav {
-  position: relative;
-  overflow: hidden;
-  -webkit-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-}
-
-.section__title {
-  font-size: 0.65em;
-  font-weight: 700;
-  -webkit-flex: none;
-  flex: none;
-  margin: 3em 0 15em;
-  text-indent: 3px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #d1d1d1;
+  height: 50vh;
+  min-width: 100vw;
+  padding: 10% 0;
 }
 
 .section.section--intro {
@@ -159,58 +143,6 @@ a:focus {
   max-width: 1000px;
   margin: 0 auto;
   padding: 1em;
-}
-
-/* Mockup Slider */
-.mockup-slider {
-  position: relative;
-  width: calc(100% - 12em);
-  margin: 0 0 0 2em;
-  max-width: 600px;
-}
-
-.mockup-slider::before,
-.mockup-slider::after {
-  content: "";
-  width: 100%;
-  background: rgba(0, 0, 0, 0.05);
-  height: 100px;
-  position: absolute;
-  top: 0;
-}
-
-.mockup-slider::after {
-  top: auto;
-  bottom: 0;
-}
-
-.mockup-slider img {
-  position: relative;
-  display: block;
-  max-width: 100%;
-  margin: 150px 0;
-  box-shadow: 0 10px 20px -4px rgba(0, 0, 0, 0.6);
-}
-
-.mockup-slider__title {
-  position: absolute;
-  font-size: 3em;
-  bottom: 30%;
-  left: -0.5em;
-  font-weight: normal;
-  margin: 0;
-}
-
-.mockup-slider__subtitle {
-  position: absolute;
-  top: 70%;
-  left: -1em;
-  background: #1b3050;
-  margin: 0;
-  color: #fff;
-  font-size: 1.05em;
-  padding: 0.25em 0.5em;
-  z-index: 100;
 }
 
 /* Related demos */
@@ -256,8 +188,18 @@ a:focus {
 /* Individual section colors */
 
 /* Crota */
-.section#Crota {
-  background: #d0f0c0;
+.section#Icon-1 {
+  background: #00008b;
+  color: white;
+}
+
+.section#Icon-2 {
+  background: #593c1f;
+  color: white;
+}
+
+.section#Icon-3 {
+  background: #666;
   color: white;
 }
 
