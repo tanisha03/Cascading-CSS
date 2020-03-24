@@ -1,4 +1,4 @@
-.fa {
+.icon-des {
   height: 100px;
   width: 100px;
   font-size: 60px;
@@ -13,23 +13,23 @@
   transition: 0.5s ease;
 }
 
-.section--icon#Icon-1 .fa:hover {
+.section--icon#Icon-1 .icon-des:hover {
   cursor: pointer;
   color: #00008b;
   background-color: rgb(255, 255, 255, 1);
 }
 
-.section--icon#Icon-2 .fa {
+.section--icon#Icon-2 .icon-des {
   background-color: rgb(255, 255, 255, 1);
   color: #593c1f;
 }
-.section--icon#Icon-2 .fa:hover {
+.section--icon#Icon-2 .icon-des:hover {
   cursor: pointer;
   color: white;
   background-color: rgb(255, 255, 255, 0.2);
 }
 
-.section--icon#Icon-3 .fa:hover {
+.section--icon#Icon-3 .icon-des:hover {
   cursor: pointer;
   box-shadow: 3px 1px 1px 1px white;
   /* cursor: pointer; */
