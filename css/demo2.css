@@ -131,21 +131,6 @@ a:focus {
   padding: 10% 0;
 }
 
-.section.section--intro {
-  font-size: 1.6em;
-  position: relative;
-  min-height: 100vh;
-  text-align: center;
-  color: #fff;
-  background: #333;
-}
-
-.section--intro p {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 1em;
-}
-
 /* Related demos */
 .content--related {
   font-weight: bold;
