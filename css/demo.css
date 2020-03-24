@@ -50,6 +50,17 @@ a:focus {
   text-align: center;
   color: #4a4244;
   background: #8399d4;
+  padding: 20em 0 0;
+}
+
+header .icon-move {
+  display: inline;
+  color: rgb(0, 0, 0, 0.3);
+  padding: 0 0.5em 5em;
+}
+header .icon-move:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0, 1);
 }
 
 .codrops-header a:hover,
