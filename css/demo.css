@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #8399d4;
+  color: #4cb8c4;
   outline: none;
 }
 
@@ -49,7 +49,7 @@ a:focus {
   padding: 0em 1em 4em;
   text-align: center;
   color: #4a4244;
-  background: #8399d4;
+  background: #4cb8c4;
   padding: 20em 0 0;
 }
 
@@ -84,7 +84,7 @@ header .icon-move:hover {
 
 .github-icon {
   fill: #333;
-  color: #8399d4;
+  color: #4cb8c4;
   position: absolute;
   top: 0;
   border: 0;
@@ -158,18 +158,42 @@ header .icon-move:hover {
 }
 
 .section.section--intro {
-  font-size: 1.6em;
-  position: relative;
-  min-height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  z-index: 100;
+  min-height: 10vh;
   text-align: center;
   color: #fff;
   background: #333;
 }
 
-.section--intro p {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 1em;
+.main-nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.main-nav-btn {
+  height: 1.2em;
+  width: 1.2em;
+  background-color: rgb(255, 255, 255, 0.3);
+  margin: 0.5em;
+  cursor: pointer;
+}
+.main-nav-btn a {
+  color: #333;
+  text-align: center;
+  position: relative;
+  top: 1em;
+  margin: 0 1em 0 0;
+}
+
+.main-nav-btn:hover {
+  border: 0.1em solid rgb(255, 255, 255, 1);
+}
+
+.main-nav-btn:hover a {
+  color: #fff;
 }
 
 /* Mockup Slider */
@@ -221,7 +245,7 @@ header .icon-move:hover {
   color: #fff;
   font-size: 1.05em;
   padding: 0.25em 0.5em;
-  z-index: 100;
+  /* z-index: 100; */
 }
 
 /* Related demos */
