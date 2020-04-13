@@ -36,3 +36,9 @@
   /* color: white; */
   /* background-color: rgb(255, 255, 255, 0.2); */
 }
+.section--icon#Icon-4 .icon-des:hover {
+  cursor: pointer;
+  color: #228c22;
+  background-color: rgb(255, 255, 255, 0.8);
+  border: 2px solid #228c22;
+}

@@ -185,7 +185,6 @@ header .slash {
 
 /* Individual section colors */
 
-/* Crota */
 .section#Icon-1 {
   background: #00008b;
   color: white;
@@ -198,6 +197,10 @@ header .slash {
 
 .section#Icon-3 {
   background: #666;
+  color: white;
+}
+.section#Icon-4 {
+  background: #50c878;
   color: white;
 }
 
